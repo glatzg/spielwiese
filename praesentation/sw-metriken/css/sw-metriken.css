@@ -246,15 +246,15 @@ a:focus {
     scalable way of styling, but most of steps have quite a custom look
     and typography tricks here and there, so they had to be styled separately.
 
-    First is the title step with a big <h1> (no room for padding) and some
+    First is the centre step with a big <h1> (no room for padding) and some
     3D positioning along Z axis.
 */
 
-#title {
+#centre {
     padding: 0;
 }
 
-#title .try {
+#centre .try {
     font-size: 64px;
     position: absolute;
     top: -0.5em;
@@ -267,7 +267,7 @@ a:focus {
     transform:         translateZ(20px);
 }
 
-#title h1 {
+#centre h1 {
     font-size: 190px;
 
     -webkit-transform: translateZ(50px);
@@ -277,7 +277,7 @@ a:focus {
     transform:         translateZ(50px);
 }
 
-#title .footnote {
+#centre .footnote {
     font-size: 32px;
 }
 
